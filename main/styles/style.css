@@ -1,0 +1,142 @@
+:root {
+  --brand_lightgreen: #61ce70;
+  --brand_orange: #ffb701;
+  --brand_gray: #e7e7e7;
+  --brand_text: #414042;
+}
+
+body,
+html {
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+/* KeyFrames */
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Slide classes */
+.slide-in-from-left-animated,
+.slide-in-from-right-animated,
+.fade-in-animated {
+  opacity: 0;
+}
+
+.slide-in-from-left-animated {
+  transform: translateX(-100%);
+}
+
+.slide-in-from-right-animated {
+  transform: translateX(100%);
+}
+
+.slide-in-show {
+  animation: fade-in 0.5s ease-in-out 0.2s forwards,
+    slide-in 0.7s ease-in-out forwards;
+}
+
+.fade-in-show {
+  animation: fade-in 0.8s ease-in-out 0.2s forwards;
+}
+
+/* Font */
+.montserrat,
+.montserrat-thin,
+.montserrat-light,
+.font-page-title,
+.font-paragraph,
+.font-section-header {
+  font-family: Montserrat;
+}
+
+.montserrat-thin {
+  font-weight: 200;
+}
+
+.montserrat-light {
+  font-weight: 100;
+}
+
+.font-page-title {
+  font-size: 45px;
+}
+
+.font-section-header {
+  font-size: 32px;
+}
+
+.font-section-subheader {
+  font-size: 24px;
+}
+
+.font-paragraph {
+  font-size: 16px;
+}
+
+/* Helper classes */
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercased {
+  text-transform: uppercase;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.text-basic-lineheight,
+.font-paragraph {
+  line-height: 1.6;
+}
+
+.foreground-color-basic {
+  color: var(--brand_text);
+}
+
+.foreground-color-white {
+  color: white;
+}
+
+/* Text Highlight */
+
+.themed-orange-highlight,
+.themed-white-highlight {
+  position: relative;
+  z-index: 0;
+  font-weight: 500;
+}
+
+.themed-white-highlight:before,
+.themed-orange-highlight:before {
+  content: "";
+  position: absolute;
+  width: 101%;
+  height: 0.35em;
+  top: 0.7em;
+  left: -0.5%;
+  z-index: -1;
+  opacity: 0.8;
+  padding: 0;
+}
+
+.themed-white-highlight:before {
+  background-color: white;
+}
+
+.themed-orange-highlight:before {
+  background-color: var(--brand_orange);
+}

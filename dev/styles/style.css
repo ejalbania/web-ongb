@@ -58,7 +58,7 @@ html {
 .font-paragraph,
 .font-section-header {
   font-family: Montserrat;
-  foreground-color: var(--brand_text);
+  color: var(--brand_text);
 }
 
 .montserrat-thin {
@@ -106,12 +106,10 @@ html {
 
 .foreground-color-basic {
   color: var(--brand_text);
-  foreground-color: var(--brand_text);
 }
 
 .foreground-color-white {
   color: white;
-  foreground-color: white;
 }
 
 /* Text Highlight */
