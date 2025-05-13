@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SideMenu</title>
+
+    <link rel="stylesheet" href="/dev/styles/SideMenu.css" />
+    <link rel="stylesheet" href="/dev/styles/keyframes.css" />
+    <link rel="stylesheet" href="/dev/styles/fonts.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <script type="module">
+      import { SideMenu, MenuItem, MenuList } from "/dev/scripts/SideMenu.js";
+      import { Router, PathPatterns } from "/dev/scripts/SideMenuRouter.js";
+
+      let items = Router.getPages().map((key) => {
+        return {
+          name: key,
+          link: PathPatterns.getURL(PathPatterns[key]),
+        };
+      });
+
+      var sideMenu = new SideMenu("menu-bar", items);
+    </script>
+  </head>
+  <body>
+    <div id="nav-bar">
+      <img
+        src="https://storage.googleapis.com/msgsndr/z9Sk59H4vohEP7HIdcfF/media/6808597b4372901257c4b9ab.png"
+        alt=""
+      />
+
+      <button class="hamburger">
+        <img
+          src="https://storage.googleapis.com/msgsndr/z9Sk59H4vohEP7HIdcfF/media/6808a728437290a5afc511bd.svg"
+          alt=""
+        />
+      </button>
+    </div>
+
+    <!-- Font Awesome -->
+
+    <div id="font-awesome-sec">
+      <a
+        href="tel:(510)%20225-6420"
+        class="fa-icon contact-button"
+        style="--icon: '\f095'"
+      >
+        (510) 225-6420
+      </a>
+    </div>
+
+    <div id="topic-list">
+      <div class="topic-box">
+        <div class="text-content">
+          <p>Fostering a sense of entrepreneurship in youth</p>
+        </div>
+      </div>
+      <div class="topic-box">
+        <div class="text-content">
+          <p>Investing in youth entrepreneurs</p>
+        </div>
+      </div>
+      <div class="topic-box">
+        <div class="text-content">
+          <p>Wealth building for women investors</p>
+        </div>
+      </div>
+      <div class="topic-box">
+        <div class="text-content">
+          <p>Increasing daily school attendance</p>
+        </div>
+      </div>
+      <div class="topic-box">
+        <div class="text-content">
+          <p>
+            Using High Impact Philanthropy to invest in Black Indigenous People
+            Of Color
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

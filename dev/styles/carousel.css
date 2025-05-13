@@ -1,0 +1,98 @@
+body {
+  width: 100vw;
+  overflow: hidden;
+
+  font-family: "Crimson Text", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#animated-content-slider {
+  position: relative;
+  left: 0;
+  right: 0;
+
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#animated-content-slider .sliders-container {
+  display: inline-block;
+  white-space: nowrap;
+
+  animation: 32s slide-x infinite linear;
+}
+
+#animated-content-slider .sliders-container .slider-content {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0 12px;
+}
+
+#animated-content-slider:hover .sliders-container {
+  animation-play-state: paused;
+}
+
+#animated-content-slider:before,
+#animated-content-slider::after {
+  top: 0;
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background: inherit;
+  content: "";
+  z-index: 2;
+}
+
+#animated-content-slider:before {
+  left: 0;
+  background: linear-gradient(to left, transparent, white);
+}
+
+#animated-content-slider:after {
+  right: 0;
+  background: linear-gradient(to right, transparent, white);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 33vw;
+  aspect-ratio: 2;
+  padding: 20px 30px;
+  margin: 10px;
+
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.card .details {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  font-family: Montserrat, "sans-serif";
+  font-size: 18px;
+  font-weight: 700;
+
+  white-space: break-spaces;
+}
+
+.card .testimonial p {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  white-space: break-spaces;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+}

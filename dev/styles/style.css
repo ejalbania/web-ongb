@@ -13,19 +13,6 @@ html {
   font-size: 16px;
 }
 
-/* KeyFrames */
-@keyframes fade-in {
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in {
-  to {
-    transform: translateX(0);
-  }
-}
-
 /* Slide classes */
 .slide-in-from-left-animated,
 .slide-in-from-right-animated,
@@ -140,4 +127,173 @@ html {
 
 .themed-orange-highlight:before {
   background-color: var(--brand_orange);
+}
+
+.header {
+  position: relative;
+
+  height: 90vh;
+  width: 100vw;
+}
+
+.header div.bg {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/dev/assets/ongb/membership-banner.png");
+  background-color: #353a49;
+  background-size: contain;
+  background-position: center;
+
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.header:hover div.bg {
+  transform: scale(1.05);
+}
+
+.header .content-container {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 10;
+}
+
+.header .content-container h1 {
+  position: relative;
+  top: 15%;
+
+  font-size: 80px;
+  font-family: Montserrat;
+  padding: 50px;
+
+  color: white;
+}
+
+.header .content-container p {
+  position: relative;
+  top: 15%;
+
+  font-size: 140px;
+  font-family: "Nothing You Could Do";
+  text-align: center;
+  color: #269afd;
+}
+
+.header .content-container button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 20px 60px;
+  border-radius: 999px;
+  overflow: hidden;
+  cursor: pointer;
+
+  background-color: var(--mainTint);
+  color: white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+
+  border: none;
+}
+
+.header .content-container .pencil {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translateY(-50%);
+  height: 70%;
+  width: auto;
+}
+
+.header .content-container .arrow {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+
+  height: 8%;
+  width: auto;
+
+  animation: bounce 2.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(15%, -15%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.animating-letters {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#animating-letters p {
+  position: absolute;
+
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+
+  font-family: "Nothing You Could Do";
+  font-size: 250px;
+
+  background-color: black;
+  color: white;
+
+  text-align: center;
+}
+
+#animating-letters p span {
+  position: relative;
+  opacity: 0;
+  overflow: visible;
+  animation: fade-in 1s ease-in-out calc(0.2s * var(--i)) forwards;
+  z-index: -1;
+}
+
+#animating-letters p span:nth-child(10) {
+  z-index: 1;
+}
+
+#animating-letters p span img {
+  position: absolute;
+  scale: 0.7;
+
+  overflow: visible;
+  transform: translateX(-50%);
+}
+
+#animating-letters p span img:nth-child(1) {
+  left: 70%;
+}
+
+#animating-letters p span img:nth-child(2) {
+  position: absolute;
+  scale: 0.7;
+  top: 50%;
+  left: 40%;
+
+  transform: translate(-50%, -50%);
 }

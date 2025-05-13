@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#ej-brgr-btn {
+  position: absolute;
+  display: inline-block;
+  height: 30px;
+
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+}
+
+#ej-brgr-btn::before {
+  content: "MENU";
+  position: relative;
+
+  display: inline-block;
+
+  margin-right: 8px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1.56em;
+  font-weight: 700;
+
+  color: black;
+}
+
+#ej-brgr-btn.active::before {
+  color: white;
+}
+
+#brgr-btn-icon {
+  position: relative;
+  display: inline-block;
+
+  width: 30px;
+  height: 20px;
+  bottom: 0;
+
+  transition: 0.3s;
+  --iconTint: var(--darkTint);
+}
+
+#ej-brgr-btn.active #brgr-btn-icon {
+  transform: rotate(-45deg);
+  --iconTint: white;
+}
+
+#brgr-btn-icon .brgr-ln {
+  position: absolute;
+  display: inline-block;
+
+  right: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+
+  background-color: var(--iconTint);
+
+  transition: 0.3s;
+}
+
+#brgr-btn-icon .brgr-ln:nth-child(1) {
+  top: 0;
+}
+
+#brgr-btn-icon .brgr-ln:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#brgr-btn-icon .brgr-ln:nth-child(3) {
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+#ej-brgr-btn:hover:not([class^="active"]) #brgr-btn-icon .brgr-ln {
+  --iconTint: #04d2c8;
+}
+
+#ej-brgr-btn:hover #brgr-btn-icon div.brgr-ln:nth-child(odd),
+#ej-brgr-btn.active #brgr-btn-icon .brgr-ln:nth-child(odd) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#ej-brgr-btn:hover #brgr-btn-icon div.brgr-ln:nth-child(2),
+#ej-brgr-btn.active #brgr-btn-icon .brgr-ln:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+@media (orientation: portrait) {
+  #ej-brgr-btn {
+    left: 0;
+    right: auto;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-content: space-around; */
+
+    transform: translateX(-50%, -50%);
+  }
+
+  #ej-brgr-btn::before {
+    content: "";
+
+    /* width: 289px;
+    height: 88px; */
+    height: 100%;
+    aspect-ratio: 3.28;
+    background: url(https://assets.cdn.filesafe.space/isV4FSMuMQ1b68WLmJdq/media/67d898942782381021b8858e.png)
+      center center no-repeat;
+  }
+
+  #brgr-btn-icon {
+    height: 100%;
+
+    scale: 1.5;
+  }
+}
+/* 
+
+style 
+<style>
+
+#ej-brgr-btn {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+
+  height: 30px;
+}
+
+.brgr-btn-title {
+  position: relative;
+
+  display: inline-block;
+  white-space: nowrap;
+
+  margin-right: 8px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1.56em;
+  font-weight: 700;
+
+  color: black;
+}
+
+#brgr-btn-icon {
+  position: relative;
+  display: inline-block;
+
+  width: 30px;
+  height: 20px;
+  bottom: 0;
+
+  transition: 0.3s;
+  --iconTint: var(--darkTint);
+}
+
+#ej-brgr-btn.active #brgr-btn-icon {
+  transform: rotate(-45deg);
+  --iconTint: white;
+}
+
+#ej-brgr-btn.active .brgr-btn-title p {
+  color: white;
+}
+  
+#brgr-btn-icon .brgr-ln {
+  position: absolute;
+  display: inline-block;
+
+  right: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+
+  background-color: var(--iconTint);
+
+  transition: 0.3s;
+}
+
+#brgr-btn-icon .brgr-ln:nth-child(1) {
+  top: 0;
+}
+
+#brgr-btn-icon .brgr-ln:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#brgr-btn-icon .brgr-ln:nth-child(3) {
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+#ej-brgr-btn:hover:not([class^="active"]) #brgr-btn-icon .brgr-ln {
+  --iconTint: #04d2c8;
+}
+
+#ej-brgr-btn:hover #brgr-btn-icon div.brgr-ln:nth-child(odd),
+#ej-brgr-btn.active #brgr-btn-icon .brgr-ln:nth-child(odd) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#ej-brgr-btn:hover #brgr-btn-icon div.brgr-ln:nth-child(2),
+#ej-brgr-btn.active #brgr-btn-icon .brgr-ln:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+</style>
+
+element
+<div id="ej-brgr-btn">
+  <div class="brgr-btn-title">
+    <p>MENU</p>
+  </div>
+  <div id="brgr-btn-icon">
+    <div class="brgr-btn-ln1 brgr-ln"></div>
+    <div class="brgr-btn-ln2 brgr-ln"></div>
+    <div class="brgr-btn-ln3 brgr-ln"></div>
+  </div>
+</div>
+
+*/

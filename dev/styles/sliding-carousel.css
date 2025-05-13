@@ -1,0 +1,117 @@
+#sliding-carousel {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+
+#sliding-carousel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: url("https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67da07c1c87698159bf152bb.png");
+  background-position: center;
+  background-repeat: repeat;
+
+  transition: 0.5s;
+}
+
+#sliding-carousel:hover::before {
+  filter: blur(5px);
+}
+
+#sliding-carousel .sliding-controls {
+  position: relative;
+  height: 100%;
+}
+
+#sliding-carousel .sliding-btn {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  padding: 0px 24px;
+}
+
+#sliding-carousel .sliding-btn img {
+  position: relative;
+  top: 50%;
+
+  transform: translateY(-50%);
+}
+
+#sliding-carousel .back-btn {
+  background: linear-gradient(90deg, white, transparent);
+  left: 0;
+}
+
+#sliding-carousel .next-btn {
+  background: linear-gradient(270deg, white, transparent);
+  right: 0;
+}
+
+#sliding-carousel .slides-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  font-size: 0;
+  white-space: nowrap;
+
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+#sliding-carousel .slides-container .slide {
+  position: relative;
+  display: inline-block;
+
+  background-color: transparent;
+  top: 50%;
+  width: 33.33%;
+  transform: translateY(-50%);
+  padding: 50px 0px;
+  margin: 0;
+
+  scroll-snap-stop: always;
+  scroll-snap-align: center;
+
+  transition: 0.3s;
+}
+
+#sliding-carousel .slides-container .slide * {
+  position: relative;
+
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10px 0px;
+
+  color: #42495b;
+  font-family: Montserrat;
+}
+
+#sliding-carousel .slides-container .slide h1 {
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+#sliding-carousel .slides-container .slide p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+/*
+
+14 0 1 2 3
+
+
+*/

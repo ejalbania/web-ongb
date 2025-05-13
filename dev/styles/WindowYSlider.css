@@ -1,0 +1,422 @@
+@keyframes horizontal-growing-bar {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.window-y-slider {
+  position: relative;
+  margin-top: -4px;
+  left: 0;
+  width: 100vw;
+  height: calc(90vh + 4px);
+
+  background-color: white;
+  font-family: Montserrat, sans-serif;
+
+  overflow: hidden;
+  opacity: 0;
+  animation: fade-in 0.5s forwards 0.5s;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.slider-container {
+  height: 100vh;
+}
+
+.window-y-slider .left-slider,
+.window-y-slider .right-slider {
+  position: absolute;
+
+  top: 0px;
+
+  width: 50%;
+  height: 100%;
+
+  background-color: #0008;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.window-y-slider .left-slider {
+  left: 0;
+}
+
+.window-y-slider .right-slider {
+  right: 0;
+}
+
+.window-y-slider .left-slider .slide,
+.window-y-slider .right-slider .slide {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+
+  overflow: hidden;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.window-y-slider .left-slider div:nth-child(1) img {
+  position: absolute;
+  right: 0px;
+}
+
+/* Scroll Trigger */
+.overlay-trigger {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-trigger div {
+  position: absolute;
+  display: inline-block;
+
+  top: 0;
+  width: 50%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.left-trigger {
+  left: 0;
+}
+
+.right-trigger {
+  left: 50%;
+}
+
+.overlay-trigger div div {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+
+  background-color: transparent;
+}
+
+.slide {
+  background-color: white;
+}
+
+/* Left Slider contents */
+.left-slider div:nth-child(1) img {
+  position: absolute;
+  right: 0px;
+}
+
+.left-slider #benefits-of-gem {
+  position: absolute;
+
+  font-size: 75px;
+  line-height: 1em;
+  font-weight: 700;
+
+  top: 50%;
+  left: 50%;
+  width: 65%;
+  height: 50%;
+  transform: translate(-40%, -50%);
+
+  color: var(--darkTint);
+}
+
+.left-slider #benefits-of-gem .title {
+  margin-bottom: 32px;
+}
+
+.left-slider #benefits-of-gem .stats {
+  position: relative;
+  display: inline-block;
+  height: 55px;
+  width: 100%;
+}
+
+.left-slider #benefits-of-gem .text-container {
+  position: absolute;
+  display: inline;
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  line-height: 1.56em;
+  font-weight: 400;
+
+  color: grey;
+}
+
+.left-slider #benefits-of-gem .text-container p {
+  position: absolute;
+
+  top: 8px;
+}
+
+.left-slider #benefits-of-gem .text-container p:nth-child(2) {
+  right: 0px;
+}
+
+.left-slider #benefits-of-gem .growing-bar {
+  position: absolute;
+  display: inline-block;
+
+  left: 0px;
+  bottom: 0px;
+  height: 10px;
+  width: 0%;
+  animation: horizontal-growing-bar 2s linear 1s forwards;
+  background-color: var(--blueTint);
+}
+
+.left-slider .slide:nth-child(3) {
+  background: url("https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67eccd4813c4b669a11d5a3e.png");
+}
+
+.left-slider #outcomes {
+  position: absolute;
+  display: inline-block;
+
+  font-size: 32px;
+  font-weight: 700;
+
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+.left-slider #outcomes h1 {
+  margin-bottom: 80px;
+}
+
+.left-slider #outcomes .text-container {
+  position: relative;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+
+  margin-bottom: 60px;
+}
+
+.left-slider #outcomes .text-container h4 {
+  margin: 12px 0;
+}
+
+.left-slider #outcomes .text-container p {
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  line-height: 1.555555555555556em;
+  font-weight: 400;
+
+  opacity: 0.7;
+}
+
+.left-slider #meet-gem {
+  position: absolute;
+
+  margin-bottom: 24px;
+  top: 60%;
+  left: 50%;
+  width: 70%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+
+  color: var(--darkTint);
+}
+
+.left-slider #meet-gem h1 {
+  font-family: Montserrat, sans-serif;
+
+  font-size: 75px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+.left-slider #meet-gem p {
+  font-family: "Crimson Text", serif;
+  color: #595959;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 24px 0px;
+}
+
+.left-slider #meet-gem button {
+  padding: 20px 60px;
+  border-radius: 999px;
+  border: none;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: white;
+
+  background-color: var(--mainTint);
+}
+
+/* Right Slider contents */
+.right-slider .slide {
+  background-color: white;
+}
+
+.right-slider .slide:nth-child(5) #hello-gem {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+}
+
+.right-slider .slide:nth-child(5) #hello-gem p:nth-child(1) {
+  width: 60%;
+  font-family: Montserrat, sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 1em;
+
+  color: var(--mainTint);
+}
+
+.right-slider .slide:nth-child(5) #hello-gem p:nth-child(2) {
+  margin: 32px 0;
+  font-family: "Crimson Text", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.9;
+
+  color: #595959b0;
+}
+
+.right-slider .slide:nth-child(5) #hello-gem button {
+  padding: 20px 60px;
+  border-radius: 999px;
+  border: none;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: white;
+
+  background-color: var(--mainTint);
+}
+
+.left-slider .slide:nth-child(4) img,
+.right-slider .slide:nth-child(4) img,
+.right-slider .slide:nth-child(3) img {
+  position: absolute;
+  top: 0;
+  right: 0px;
+
+  height: 100%;
+}
+
+.right-slider .slide:nth-child(2) {
+  background: url("https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67eccd4813c4b669a11d5a3e.png");
+}
+
+.right-slider .content-container {
+  position: absolute;
+
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+.right-slider .content-container * {
+  padding: 8px 0;
+}
+
+.right-slider .content-container img {
+  width: 150px;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.right-slider .content-container p {
+  font-size: 22px;
+  line-height: 30px;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+}
+
+.content-container h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  line-height: 1.454545454545455em;
+  font-weight: 700;
+}
+
+.right-slider .content-container h6 {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 1.785714285714286em;
+  font-weight: 400;
+}
+
+.right-slider .slide:nth-child(1) {
+  background: url("https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67eccd3a37929441bdf1defd.png");
+}
+
+.gems-background-text {
+  position: absolute;
+  display: inline;
+  top: 0;
+  left: 2%;
+  width: 100%;
+  transform: translateY(-50%);
+
+  font-family: "Nothing You Could Do";
+  font-size: 150px;
+  text-align: left;
+  letter-spacing: 3px;
+  color: #e3eaf0;
+
+  z-index: -1;
+}
+
+.window-y-slider iframe {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 90%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+
+  background-color: transparent;
+  border: none;
+}
