@@ -11,9 +11,10 @@
       },
       "label": {
         "text": "Self-Assured",
+        "size": { "landscape": 90, "portrait": 150 },
         "offset": {
           "landscape": { "x": 54, "y": 56 },
-          "portrait": { "x": 32, "y": 80 }
+          "portrait": { "x": 37, "y": 80 }
         }
       },
       "icons": [
@@ -88,9 +89,10 @@
       },
       "label": {
         "text": "College-Bound",
+        "size": { "landscape": 90, "portrait": 120 },
         "offset": {
-          "landscape": { "x": 0, "y": 47 },
-          "portrait": { "x": 32, "y": 18 }
+          "landscape": { "x": 6, "y": 47 },
+          "portrait": { "x": 37, "y": 18 }
         }
       },
       "icons": [
@@ -117,7 +119,7 @@
           "rotate": -30,
           "offset": {
             "landscape": { "x": 55, "y": 19 },
-            "portrait": { "x": 32, "y": 2 }
+            "portrait": { "x": 35, "y": 2 }
           }
         },
         {
@@ -143,7 +145,7 @@
           "rotate": 20,
           "offset": {
             "landscape": { "x": 66, "y": 0.5 },
-            "portrait": { "x": 45, "y": 0 }
+            "portrait": { "x": 45, "y": 4 }
           }
         },
         {
@@ -163,56 +165,88 @@
     {
       "background": {
         "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60c4996fd122a.png",
-        "offset": { "x": -8, "y": 0 }
+        "offset": {
+          "landscape": { "x": -8, "y": 0 },
+          "portrait": { "x": 0, "y": 0 }
+        }
       },
       "label": {
         "text": "Career-Focused",
-        "size": 115,
-        "offset": { "x": 52, "y": 55 }
+        "size": { "landscape": 80, "portrait": 55 },
+        "offset": {
+          "landscape": { "x": 52, "y": 55 },
+          "portrait": { "x": 47, "y": 10 }
+        }
       },
       "icons": [
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20a234f08a05d.png",
           "scale": 0.8,
-          "offset": { "x": -1, "y": 43 }
+          "offset": {
+            "landscape": { "x": -1, "y": 43 },
+            "portrait": { "x": 67, "y": 60 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60cf8b1fd122f.png",
-          "offset": { "x": 54, "y": 31 }
+          "offset": {
+            "landscape": { "x": 54, "y": 31 },
+            "portrait": { "x": 70, "y": 30 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba398b7031cf008.png",
           "scale": 0.65,
-          "offset": { "x": 5, "y": 13.5 }
+          "offset": {
+            "landscape": { "x": 5, "y": 13.5 },
+            "portrait": { "x": 50, "y": 20 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20abc9108a05e.png",
           "scale": 0.5,
-          "offset": { "x": 55, "y": 2 }
+          "offset": { "landscape": { "x": 55, "y": 2 } }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60c2a37fd122d.png",
           "scale": 0.75,
-          "offset": { "x": 77, "y": 7 }
+          "rotate": -20,
+          "offset": {
+            "landscape": { "x": 77, "y": 7 },
+            "portrait": { "x": 20, "y": 0 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a7728ac6576d586.png",
-          "offset": { "x": 37, "y": 14 }
+          "offset": {
+            "landscape": { "x": 37, "y": 14 },
+            "portrait": { "x": 70, "y": 0 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a7728d8f176d582.png",
           "scale": 0.5,
-          "offset": { "x": 92, "y": 31 }
+          "offset": {
+            "landscape": { "x": 92, "y": 31 },
+            "portrait": { "x": 38, "y": 50 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20a6eb708a059.png",
           "scale": 0.75,
-          "offset": { "x": 84.5, "y": 71.5 }
+          "rotate": 40,
+          "offset": {
+            "landscape": { "x": 84.5, "y": 71.5 },
+            "portrait": { "x": 60, "y": 80 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60cf3a5fd1229.png",
           "scale": 0.75,
-          "offset": { "x": 60, "y": 77 }
+          "offset": {
+            "landscape": { "x": 60, "y": 77 },
+            "portrait": { "x": 55, "y": 40 }
+          }
         }
       ]
     }
