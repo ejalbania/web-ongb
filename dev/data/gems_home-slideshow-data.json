@@ -5,8 +5,6 @@
       "background": {
         "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba398821f1cf004.png",
         "offset": {
-          "x": -8,
-          "y": 0,
           "landscape": { "x": -8, "y": 0 },
           "portrait": { "x": 18, "y": 0 }
         }
@@ -83,51 +81,82 @@
     {
       "background": {
         "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba398a2be1cf003.png",
-        "offset": { "x": -26.5, "y": 0 }
+        "offset": {
+          "landscape": { "x": -26.5, "y": 0 },
+          "portrait": { "x": -40, "y": 0 }
+        }
       },
-      "label": { "text": "College-Bound", "offset": { "x": 0, "y": 47 } },
+      "label": {
+        "text": "College-Bound",
+        "offset": {
+          "landscape": { "x": 0, "y": 47 },
+          "portrait": { "x": 32, "y": 18 }
+        }
+      },
       "icons": [
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba398b7031cf008.png",
           "scale": 0.8,
-          "offset": { "x": 46.5, "y": 45 }
+          "offset": {
+            "landscape": { "x": 46.5, "y": 45 },
+            "portrait": { "x": 30, "y": 45 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60cf8b1fd122f.png",
           "scale": 0.8,
           "rotate": -20,
-          "offset": { "x": -1, "y": 65 }
+          "offset": {
+            "landscape": { "x": -1, "y": 65 },
+            "portrait": { "x": 58, "y": 6 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20abc9108a05e.png",
           "scale": 0.6,
-          "offset": { "x": 55, "y": 19 }
+          "rotate": -30,
+          "offset": {
+            "landscape": { "x": 55, "y": 19 },
+            "portrait": { "x": 32, "y": 2 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba3980a401cf006.png",
           "scale": 0.9,
-          "offset": { "x": 30, "y": 30 }
+          "offset": {
+            "landscape": { "x": 30, "y": 30 },
+            "portrait": { "x": 47, "y": 35 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a7728465576d581.png",
           "scale": 0.6,
           "rotate": -25,
-          "offset": { "x": 25, "y": 75 }
+          "offset": {
+            "landscape": { "x": 25, "y": 75 },
+            "portrait": { "x": 32, "y": 75 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061e4e64568cc86a269.png",
           "scale": 0.72,
           "rotate": 20,
-          "offset": { "x": 66, "y": 0.5 }
+          "offset": {
+            "landscape": { "x": 66, "y": 0.5 },
+            "portrait": { "x": 45, "y": 0 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20a442008a05b.png",
           "scale": 0.4,
-          "offset": { "x": 12.5, "y": 8 }
+          "offset": {
+            "landscape": { "x": 12.5, "y": 8 },
+            "portrait": { "x": 60, "y": 55 }
+          }
         },
         {
           "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061e4e645266a86a26a.png",
-          "offset": { "x": -3, "y": 27 }
+          "offset": { "landscape": { "x": -3, "y": 27 } }
         }
       ]
     },
