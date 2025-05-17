@@ -11,7 +11,7 @@
       },
       "label": {
         "text": "Self-Assured",
-        "size": { "landscape": 90, "portrait": 150 },
+        "size": { "landscape": 90, "portrait": 60 },
         "offset": {
           "landscape": { "x": 54, "y": 56 },
           "portrait": { "x": 37, "y": 80 }
@@ -89,7 +89,7 @@
       },
       "label": {
         "text": "College-Bound",
-        "size": { "landscape": 90, "portrait": 120 },
+        "size": { "landscape": 90, "portrait": 60 },
         "offset": {
           "landscape": { "x": 6, "y": 47 },
           "portrait": { "x": 37, "y": 18 }
@@ -172,7 +172,7 @@
       },
       "label": {
         "text": "Career-Focused",
-        "size": { "landscape": 80, "portrait": 55 },
+        "size": { "landscape": 80, "portrait": 60 },
         "offset": {
           "landscape": { "x": 52, "y": 55 },
           "portrait": { "x": 47, "y": 10 }
