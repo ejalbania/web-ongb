@@ -1,65 +1,18 @@
 {
-  "teams": {
-    "executive": [
-      {
+  "teams": [
+    {
+      "title": "Executive Team",
+      "staff": {
         "name": {
-          "first": "Brandon",
-          "last": "Nicholson"
+          "first": "Nyeisha",
+          "last": "DeWitt"
         },
-        "title": "Ph.D.",
-        "position": "Chief Executive Officer",
-        "imageSrc": "https://www.hiddengeniusproject.org/wp-content/uploads/2024/09/Brandon-047-web-circle-500x500.png",
-        "bio": "An Oakland native, Chief Executive Officer Brandon Nicholson, Ph.D. has always felt a deep sense of commitment to promoting equity in the public realm, particularly in the education space. Previously, he was a Senior Associate at Social Policy Research Associates (SPR), where he conducted research, evaluation, and analysis across a range of key social policy areas. Brandon has conducted substantial research in the areas of education and youth development, with a particular focus on issues of equity and access in K-12 education for underserved populations. He has considerable experience investigating linkages among race, class, and youth development.",
-        "bioImg": "https://www.hiddengeniusproject.org/wp-content/uploads/2024/09/DrNicholson-DetroitGeniuses-TheHiddenGeniusProject-1200crop.png"
-      },
-      {
-        "name": {
-          "first": "Tariq",
-          "last": "Noris"
-        },
-        "title": "",
-        "position": "Chief Finance Officer and Operations Officer",
-        "imageSrc": "https://www.hiddengeniusproject.org/wp-content/uploads/2021/03/Tariq-Portrait.png",
-        "bio": "A San Francisco native, Tariq Norris is the Chief Finance and Operations Officer at The Hidden Genius Project. His expertise is rooted in organizational development, fiscal management, non-profit administration, youth development, and strategic planning. Previously, Tariq held leadership positions at several local and national non-profit organizations which focused on organizational growth and creating positive pathways and opportunities for children and families. Tariq was educated at Alabama State University where he studied Communications. Tariq believes strongly in the power of community and continues to dedicate his life and career to helping historically underserved youth and communities advance and thrive."
-      },
-      {
-        "name": {
-          "first": "ALICIA",
-          "last": "PINN"
-        },
-        "title": "PHR, SHRM-CP",
-        "position": "Chief Human Resources Officer",
-        "imageSrc": "https://www.hiddengeniusproject.org/wp-content/uploads/2022/08/Website-AliciaPinn-HRDirector-Oakland.png",
-        "bio": "Alicia Pinn is a Bay Area native and the Chief Human Resources Officer at The Hidden Genius Project. She was born in Santa Clara, the heart of Silicon Valley, and raised in both the South and East Bay Areas of northern California. The movement around the Bay exposed her to many diverse cultures and people. This and her sundry family makeup allowed her to embrace people of all backgrounds and identities. Alicia is an individual that likes to find the positives and works to drive change. She believes that drive, learned experience, and organization are paramount to success. Alicia has over 20 years of work experience in nonprofit and for-profit companies and a non-traditional path of education rooted in the Executive level program for Human Resource Management at Cal State East Bay. She also holds certifications with the Society for Human Resources (SHRM) as a Certified Professional (CP), and a Workplace Inclusivity Specialist. She is also a Professional in Human Resources (PHR) with the Human Resource Certification Institute (HRCI). Alicia is an active board member with the Stanford Community Advisory Board and her local high school's athletic booster club."
-      },
-      {
-        "name": {
-          "first": "Emily",
-          "last": "Wong"
-        },
-        "title": "",
-        "position": "Chief Financial Officer",
-        "imageSrc": "https://www.hiddengeniusproject.org/wp-content/uploads/2024/09/Emily-047-web-circle-500x500.png"
-      },
-      {
-        "name": {
-          "first": "Michael",
-          "last": ""
-        },
-        "title": "MSc",
-        "position": "Chief Technology Officer",
-        "imageSrc": "https://www.hiddengeniusproject.org/wp-content/uploads/2024/09/Michael-047-web-circle-500x500.png"
-      },
-      {
-        "name": {
-          "first": "Sophia",
-          "last": ""
-        },
-        "title": "",
-        "position": "Chief Marketing Officer",
-        "imageSrc": "https://www.hiddengeniusproject.org/wp-content/uploads/2024/09/Sophia-047-web-circle-500x500.png"
+        "professionalTitle": "Dr.",
+        "role": "Executive Director",
+        "bio": "Dr. Nyeisha DeWitt is an investor, serial entrepreneur and CEO of Oakland Natives Give Back Fund, Inc., which she founded in 2008 to exemplify an evolved concept of philanthropy and raise awareness around the importance of daily attendance. Her unique background and personal journey uncovered the greatest crack in the foundation of a child’s success: chronic absenteeism, and has given her the ability to see it from a multitude of perspectives.  She is a high school dropout, an educator, a mother of children with unique learning abilities, and a funder who supports using out-of-the-box thinking to research solutions and combat this national crisis. Since inception, ONGB has invested nearly $7M in resources toward that end.</br>Nyeisha holds a Bachelor’s Degree in Sociology from the University of California, Berkeley. Her Master’s Degree in Teaching and Doctoral Degree in Organization and Leadership in Education, were both earned from the University of San Francisco.</br>Dr. Nyeisha DeWitt is an investor, serial entrepreneur and CEO of Oakland Natives Give Back Fund, Inc., which she founded in 2008 to exemplify an evolved concept of philanthropy and raise awareness around the importance of daily attendance. Her unique background and personal journey uncovered the greatest crack in the foundation of a child’s success: chronic absenteeism, and has given her the ability to see it from a multitude of perspectives.  She is a high school dropout, an educator, a mother of children with unique learning abilities, and a funder who supports using out-of-the-box thinking to research solutions and combat this national crisis. Since inception, ONGB has invested nearly $7M in resources toward that end.</br>Nyeisha holds a Bachelor’s Degree in Sociology from the University of California, Berkeley. Her Master’s Degree in Teaching and Doctoral Degree in Organization and Leadership in Education, were both earned from the University of San Francisco.",
+        "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/682f9908dc0a28610362f4cb.png",
+        "creativeImg": ""
       }
-    ],
-    "central": []
-  }
+    }
+  ]
 }
