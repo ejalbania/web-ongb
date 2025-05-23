@@ -70,6 +70,55 @@
           "creativeImg": ""
         }
       ]
+    },
+    {
+      "title": "Programs Team",
+      "staff": [
+        {
+          "name": {
+            "first": "Rahim",
+            "last": "Harris"
+          },
+          "professionalTitle": "",
+          "role": "Program Manager",
+          "bio": "Rahim Harris is an Oakland native with over 15 years of experience supporting youth as a teacher, student support provider, mental health counselor, and case manager. He holds a B.A. in Political Science with a minor in African American Studies from Loyola Marymount University. Rahim is deeply committed to uplifting youth and helping them thrive.",
+          "thumbnailImg": "",
+          "creativeImg": ""
+        },
+        {
+          "name": {
+            "first": "Heather",
+            "last": "Davis"
+          },
+          "professionalTitle": "",
+          "role": "Program Coordinator",
+          "bio": "Heather Davis is a driven Oakland native and Program Coordinator at Oakland Natives Give Back, where she designs and manages attendance initiatives that uplift local youth. She’s currently pursuing a degree in Business Operations & Administration at Berkeley City College—and dreaming of joining the Haas School of Business at UC Berkeley next. Outside the office, Heather brings her creativity into the kitchen and studio.",
+          "thumbnailImg": "",
+          "creativeImg": ""
+        },
+        {
+          "name": {
+            "first": "Ana",
+            "last": "Costa"
+          },
+          "professionalTitle": "",
+          "role": "Data Science Intern",
+          "bio": "Ana Costa is a Data Scientist at ONGB and a nonprofit director dedicated to advancing equity through sports and education. Originally from the Bugio neighborhood in Brazil, she earned a full athletic scholarship to study in the U.S., completing a B.A. in International Studies with a minor in Political Science, as well as a Business Administration certification from UC Berkeley. She recently earned her M.S. in Data Analytics, specializing in Big Data and Machine Learning, from Georgia State University. Ana has applied her skills across finance, education, and community development, using data-driven strategies to deliver innovative, people-centered solutions for underserved communities.",
+          "thumbnailImg": "",
+          "creativeImg": ""
+        },
+        {
+          "name": {
+            "first": "Erin",
+            "last": "Gray"
+          },
+          "professionalTitle": "",
+          "role": "GEMS Facilitation and Outreach Coordinator",
+          "bio": "Erin Gray is the cofounder and alumna of the Girls Equity Movement (GEMS), a flagship initiative of Oakland Natives Give Back that empowers high school girls to become confident changemakers through entrepreneurship, sisterhood, and leadership. A proud graduate of Babson College, Erin combines her passion for education with her entrepreneurial background, working in schools to inspire students who remind her of her own journey as well as still spending investing time and energy to the self-elected, \"Refined GEMs\". Through GEMS, she is shaping the next generation of innovators, leaders, and trailblazers.",
+          "thumbnailImg": "",
+          "creativeImg": ""
+        }
+      ]
     }
   ]
 }
