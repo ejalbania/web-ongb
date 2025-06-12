@@ -152,6 +152,17 @@
       "staff": [
         {
           "name": {
+            "first": "Catherine",
+            "last": "Agacer"
+          },
+          "professionalTitle": "",
+          "role": "Executive Assistant to the CEO",
+          "bio": "Catherine Agacer is the Executive Assistant to the CEO at ONGB, bringing over a decade of experience in HR leadership, executive support, and operations management. She has held key roles as Chief of Staff, Executive Assistant, and HR/Operations Head across both corporate and virtual environments, supporting C-level executives and helping scale high-performing teams from the ground up. She specializes in streamlining operations, fostering employee engagement, and building future-ready organizations. Known for her friendly yet fiercely efficient approach, Catherine thrives in fast-paced environments where adaptability, strategic thinking, and people-first leadership drive success.",
+          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/684a55498beb4b83e1a9476c.jpeg",
+          "creativeImg": ""
+        },
+        {
+          "name": {
             "first": "Carren",
             "last": "Gopez"
           },
@@ -161,17 +172,17 @@
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303ba751afc605a93756a1.jpeg",
           "creativeImg": ""
         },
-        {
-          "name": {
-            "first": "Veronica",
-            "last": "Tiamson"
-          },
-          "professionalTitle": "",
-          "role": "",
-          "bio": "Veronica “Nica” Tiamson is an Administrative Professional at ONGB with over 15 years of experience in office management, customer service, HR recruitment, technical support, and sales. Known for her sharp organizational skills and strong communication abilities, she provides high-level executive support and ensures seamless operations through diligence, adaptability, and attention to detail. Nica holds a B.A. in Mass Communication with a major in Broadcast. Outside of work, Nica is a passionate artist who finds joy and purpose in painting.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303bc8a7465198b69815dd.jpeg",
-          "creativeImg": ""
-        },
+        // {
+        //   "name": {
+        //     "first": "Veronica",
+        //     "last": "Tiamson"
+        //   },
+        //   "professionalTitle": "",
+        //   "role": "",
+        //   "bio": "Veronica “Nica” Tiamson is an Administrative Professional at ONGB with over 15 years of experience in office management, customer service, HR recruitment, technical support, and sales. Known for her sharp organizational skills and strong communication abilities, she provides high-level executive support and ensures seamless operations through diligence, adaptability, and attention to detail. Nica holds a B.A. in Mass Communication with a major in Broadcast. Outside of work, Nica is a passionate artist who finds joy and purpose in painting.",
+        //   "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303bc8a7465198b69815dd.jpeg",
+        //   "creativeImg": ""
+        // },
         {
           "name": {
             "first": "Maddy",
@@ -204,29 +215,29 @@
           "bio": "Sandra Garcia is a virtual assistant with international experience supporting clients around the world. She currently serves as Outreach Support at ONGB, where she brings her problem-solving skills, empathy, and professionalism to community engagement efforts. Her human-centered and adaptable approach makes her a reliable ally for teams seeking agility and attention to detail.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303c2b93048945288e3655.png",
           "creativeImg": ""
-        },
-        {
-          "name": {
-            "first": "Sofia",
-            "last": "Balardini"
-          },
-          "professionalTitle": "",
-          "role": "Finance Support",
-          "bio": "Sofía Balardini is a finance professional with a background in investment banking, risk management, and financial analysis. She supports the mission of ONGB as Finance Support, contributing to fiscal planning and strategic financial operations. Balardini has worked with global firms including J.P. Morgan, EY GDS, and Adidas, where she led strategic planning initiatives, operational risk assessments, and project evaluations across local and international markets. She holds a Bachelor's degree in Industrial Engineering and a Master's in Finance from Universidad Torcuato Di Tella. Fluent in English and Spanish, she brings strong analytical acumen, leadership capabilities, and technical proficiency in Excel, SAP, and Microsoft Office tools to every role she undertakes.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303c48930489b9b08e3663.jpeg",
-          "creativeImg": ""
-        },
-        {
-          "name": {
-            "first": "Camila",
-            "last": "Sanchez"
-          },
-          "professionalTitle": "",
-          "role": "Admin Support",
-          "bio": "Camila Sanchez is a dynamic professional with a background in Bank Administration and Foreign Trade, currently pursuing a specialization in Human Resources. She serves as Administrative Support at ONGB, where she contributes to operational coordination and team support. Her career spans the education, artificial intelligence, and e-commerce sectors, where she has supported business growth, talent development, and operational efficiency. Known for her strategic thinking and adaptability, Sanchez brings a people-first approach to organizational development. She is passionate about building inclusive work environments and aligning HR practices with broader business goals.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303c66ce008c90f469acb0.png",
-          "creativeImg": ""
         }
+        // {
+        //   "name": {
+        //     "first": "Sofia",
+        //     "last": "Balardini"
+        //   },
+        //   "professionalTitle": "",
+        //   "role": "Finance Support",
+        //   "bio": "Sofía Balardini is a finance professional with a background in investment banking, risk management, and financial analysis. She supports the mission of ONGB as Finance Support, contributing to fiscal planning and strategic financial operations. Balardini has worked with global firms including J.P. Morgan, EY GDS, and Adidas, where she led strategic planning initiatives, operational risk assessments, and project evaluations across local and international markets. She holds a Bachelor's degree in Industrial Engineering and a Master's in Finance from Universidad Torcuato Di Tella. Fluent in English and Spanish, she brings strong analytical acumen, leadership capabilities, and technical proficiency in Excel, SAP, and Microsoft Office tools to every role she undertakes.",
+        //   "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303c48930489b9b08e3663.jpeg",
+        //   "creativeImg": ""
+        // },
+        // {
+        //   "name": {
+        //     "first": "Camila",
+        //     "last": "Sanchez"
+        //   },
+        //   "professionalTitle": "",
+        //   "role": "Admin Support",
+        //   "bio": "Camila Sanchez is a dynamic professional with a background in Bank Administration and Foreign Trade, currently pursuing a specialization in Human Resources. She serves as Administrative Support at ONGB, where she contributes to operational coordination and team support. Her career spans the education, artificial intelligence, and e-commerce sectors, where she has supported business growth, talent development, and operational efficiency. Known for her strategic thinking and adaptability, Sanchez brings a people-first approach to organizational development. She is passionate about building inclusive work environments and aligning HR practices with broader business goals.",
+        //   "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303c66ce008c90f469acb0.png",
+        //   "creativeImg": ""
+        // }
       ]
     }
   ]
