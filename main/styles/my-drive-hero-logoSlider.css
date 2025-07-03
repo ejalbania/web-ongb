@@ -26,15 +26,15 @@
 
 .logo-set p {
   display: inline-block;
-  height: 120px;
-  width: 120px;
-  margin: 8px 40px;
+  height: 60px;
+  width: auto;
+  margin: 8px 16px;
 }
 
 .logo-set img {
   display: inline-block;
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .logos-container:hover .logo-set {
