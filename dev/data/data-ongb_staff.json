@@ -8,7 +8,10 @@
             "first": "Nyeisha",
             "last": "DeWitt"
           },
-          "professionalTitle": "Dr.",
+          "nominalTitle": {
+            "pre": "Dr.",
+            "post": ""
+          },
           "role": "Executive Director",
           "bio": "Dr. Nyeisha DeWitt is a serial entrepreneur, investor, and founder of Oakland Natives Give Back (ONGB). Since launching ONGB in 2008, she has led the organization in reimagining philanthropy and addressing chronic absenteeism in schools, investing nearly $7 million into student success. A former high school dropout turned educator and funder, Dr. DeWitt brings a rare, multi-faceted perspective to this national issue. She holds a B.A. in Sociology from UC Berkeley, an M.A. in Teaching and an Ed.D. in Organization and Leadership from the University of San Francisco, and a Master of Science in Advanced Entrepreneurial Leadership from Babson College.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/682f9908dc0a28610362f4cb.png",
@@ -19,7 +22,10 @@
             "first": "Kimberly",
             "last": "Mayfield"
           },
-          "professionalTitle": "Dr.",
+          "nominalTitle": {
+            "pre": "Dr.",
+            "post": ""
+          },
           "role": "Chief Learning and Innovation Officer",
           "bio": "Dr. Kimberly Mayfield is a respected educator, scholar, and author with over 30 years of experience in K-12 and higher education. She holds two teaching credentials, a master’s in teaching, and a doctorate in Learning and Instruction from the University of San Francisco. Her work focuses on creating a diverse teaching force, reducing chronic absenteeism, and addressing the over-identification of African American students in special education. Dr. Mayfield was the first African American to earn tenure at Holy Names University, where she served in multiple leadership roles. She continues to advise on education policy and provide professional development for school districts across the Bay Area.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/682fbe9cdc0a282558636518.jpeg",
@@ -27,21 +33,13 @@
         },
         {
           "name": {
-            "first": "Yuri",
-            "last": "Hernández Osorio"
-          },
-          "professionalTitle": "",
-          "role": "Vice President for Programs",
-          "bio": "Yuri Hernández Osorio (she/her) is the Vice President of Programs at ONGB. Originally from Toluca, México, with roots in Puebla, she brings a strong background in social work, immigration, and equity-centered programming. With a career rooted in higher education, including her recent work at UC Berkeley, Yuri is dedicated to building inclusive systems that support student success. She holds a social work degree from the University of Michigan and enjoys exploring the Bay Area’s vibrant culture, food, and live music scene.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/682fc3e49d6e4750de8ad16b.jpeg",
-          "creativeImg": ""
-        },
-        {
-          "name": {
             "first": "Alaa",
             "last": "Abusalah"
           },
-          "professionalTitle": "",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
           "role": "Director of Strategy, Innovation, & Partnerships",
           "bio": "Alaa Abusalah is the Director of Strategy, Innovation, and Partnerships at ONGB, based in Massachusetts. She brings deep experience in strategic planning, project management, and community engagement. Alaa holds a Master’s in Management with a concentration in Advanced Entrepreneurial Leadership from Babson College and a B.A. in Urban Studies from Worcester State University. She has worked across both the public and private sectors, leading initiatives that support schools and agencies in solving chronic absenteeism with innovative, data-driven solutions.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/682fc401a88ce1ac06c79709.jpeg",
@@ -52,21 +50,13 @@
             "first": "Yumna",
             "last": "Usmani"
           },
-          "professionalTitle": "",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
           "role": "Director of Operations",
           "bio": "Yumna Usmani is the Director of Operations at ONGB, with global experience in youth development across Pakistan, Peru, Haiti, Nigeria, and the Bay Area. With expertise in operations, program development, and nonprofit management, she is passionate about using technology to streamline and scale mission-driven work. On weekends, she’s planning creative adventures for her two energetic young boys and savoring quiet movie nights when she can.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/682fc41bf5621f846e0e0cfd.jpeg",
-          "creativeImg": ""
-        },
-        {
-          "name": {
-            "first": "Mona",
-            "last": "Blake"
-          },
-          "professionalTitle": "",
-          "role": "Director of Programs",
-          "bio": "Mona Blake is a Master’s student in Social Work at Howard University and brings a heart for service and community impact to her work. Driven by empathy and purpose, she’s preparing for a career centered on equity and healing. Outside of her studies, Mona enjoys cooking, gardening, and quality time with her family.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/682fc4379d6e477a2e8ad19f.jpeg",
           "creativeImg": ""
         }
       ]
@@ -76,10 +66,27 @@
       "staff": [
         {
           "name": {
+            "first": "Tambra Robinson",
+            "last": "Mola"
+          },
+          "nominalTitle": {
+            "pre": "Dr.",
+            "post": ""
+          },
+          "role": "Vice President for Programs",
+          "bio": "Dr. Tambra Robinson Mola is a social work professional with over 30 years of experience serving youth, families, and underserved communities. She holds a B.A. in Social Work from Southern University A&M College, an M.S.W. from San Francisco State University, and an Ed.D. in Counseling Psychology from Argosy University. A children’s book author with 15 published titles and a member of Delta Sigma Theta Sorority, Inc., Dr. Robinson Mola is known for her energetic, compassionate style and her dedication to foster youth, LGBTQ youth, and individuals facing trauma, grief, or life transitions. She is also passionate about teaching and training future social workers in areas such as child welfare, social justice, and community resilience.",
+          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68d765c0c94bacc864664565.jpeg",
+          "creativeImg": ""
+        },
+        {
+          "name": {
             "first": "Rahim",
             "last": "Harris"
           },
-          "professionalTitle": "",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
           "role": "Program Manager",
           "bio": "Rahim Harris is an Oakland native with over 15 years of experience supporting youth as a teacher, student support provider, mental health counselor, and case manager. He holds a B.A. in Political Science with a minor in African American Studies from Loyola Marymount University. Rahim is deeply committed to uplifting youth and helping them thrive.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68300d5fa88ce11b1cc8b4d2.png",
@@ -90,10 +97,13 @@
             "first": "Heather",
             "last": "Davis"
           },
-          "professionalTitle": "",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
           "role": "Program Coordinator",
           "bio": "Heather Davis is a driven Oakland native and Program Coordinator at Oakland Natives Give Back, where she designs and manages attendance initiatives that uplift local youth. She’s currently pursuing a degree in Business Operations & Administration at Berkeley City College—and dreaming of joining the Haas School of Business at UC Berkeley next. Outside the office, Heather brings her creativity into the kitchen and studio.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68300daca88ce11075c8b51c.jpeg",
+          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68d76537c94bac3eb8662574.jpeg",
           "creativeImg": ""
         },
         {
@@ -101,8 +111,11 @@
             "first": "Ana",
             "last": "Costa"
           },
-          "professionalTitle": "",
-          "role": "Data Science Intern",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
+          "role": "Implementation Coordinator/Data and Operations Assistant",
           "bio": "Ana Costa is a Data Scientist at ONGB and a nonprofit director dedicated to advancing equity through sports and education. Originally from the Bugio neighborhood in Brazil, she earned a full athletic scholarship to study in the U.S., completing a B.A. in International Studies with a minor in Political Science, as well as a Business Administration certification from UC Berkeley. She recently earned her M.S. in Data Analytics, specializing in Big Data and Machine Learning, from Georgia State University. Ana has applied her skills across finance, education, and community development, using data-driven strategies to deliver innovative, people-centered solutions for underserved communities.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68300de0a88ce17ae8c8b53d.jpeg",
           "creativeImg": ""
@@ -112,21 +125,13 @@
             "first": "Erin",
             "last": "Gray"
           },
-          "professionalTitle": "",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
           "role": "GEMS Facilitation and Outreach Coordinator",
           "bio": "Erin Gray is the cofounder and alumna of the Girls Equity Movement (GEMS), a flagship initiative of Oakland Natives Give Back that empowers high school girls to become confident changemakers through entrepreneurship, sisterhood, and leadership. A proud graduate of Babson College, Erin combines her passion for education with her entrepreneurial background, working in schools to inspire students who remind her of her own journey as well as still spending investing time and energy to the self-elected, \"Refined GEMs\". Through GEMS, she is shaping the next generation of innovators, leaders, and trailblazers.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68300dff51afc627aa36f45b.jpeg",
-          "creativeImg": ""
-        },
-        {
-          "name": {
-            "first": "Mallorie",
-            "last": "Winn"
-          },
-          "professionalTitle": "",
-          "role": "Program Manager, Girls in STEM and Postsecondary Success",
-          "bio": "Mallorie Winn is the Program Manager for Girls in STEM and Postsecondary Success at ONGB, where she leads initiatives that empower young women through education, career readiness, and creative expression. She holds a B.A. in Legal Studies with a minor in Political Science, as well as advanced degrees in Fashion Design and Public Affairs. Mallorie also brings a CTE credential in Fashion and Interior Design and a Project Management Certificate to her work, combining structure with innovation in her approach to youth programming. Passionate about equity and inclusion, Mallorie uses purposeful programming to help students build confidence, explore their potential, and thrive in academic and professional spaces.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/684a63c34c655e1e3d11ff41.jpeg",
           "creativeImg": ""
         }
       ]
@@ -139,21 +144,13 @@
             "first": "Rod",
             "last": "Travis"
           },
-          "professionalTitle": "",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
           "role": "Facilities Manager",
           "bio": "Rodrick Travis is the Facilities Manager at ONGB, where he oversees the safety, functionality, and upkeep of the organization’s physical spaces to support vibrant, community-driven programs. Born and raised in Oakland, he brings extensive experience in operations, logistics, and property management, paired with a deep commitment to creating environments where youth and families can thrive. Rodrick’s dedication to excellence and service reflects ONGB’s mission to uplift the community with care, reliability, and authenticity.",
-          "thumbnailImg": "",
-          "creativeImg": ""
-        },
-        {
-          "name": {
-            "first": "Tomia",
-            "last": "Patterson"
-          },
-          "professionalTitle": "",
-          "role": "Executive Assistant",
-          "bio": "Mia Patterson is a dedicated professional with a background in emergency management, law, and cultural studies. She serves as Executive Personal Assistant to Chief Executive Officer Dr. Nyeisha DeWitt at ONGB. A recent graduate of Northeastern University with a B.A. in History, Culture, and Law, Patterson is committed to the intersection of legal systems and social equity. With over five years of experience as an Emergency Medical Dispatcher and a former dance studio owner, she brings a unique blend of crisis management, youth engagement, and community advocacy to her role.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303b82a746512fea981592.jpeg",
+          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68d76568c94bac6696664077.jpeg",
           "creativeImg": ""
         }
       ]
@@ -163,21 +160,13 @@
       "staff": [
         {
           "name": {
-            "first": "Catherine",
-            "last": "Agacer"
-          },
-          "professionalTitle": "",
-          "role": "Executive Assistant to the CEO",
-          "bio": "Catherine Agacer is the Executive Assistant to the CEO at ONGB, bringing over a decade of experience in HR leadership, executive support, and operations management. She has held key roles as Chief of Staff, Executive Assistant, and HR/Operations Head across both corporate and virtual environments, supporting C-level executives and helping scale high-performing teams from the ground up. She specializes in streamlining operations, fostering employee engagement, and building future-ready organizations. Known for her friendly yet fiercely efficient approach, Catherine thrives in fast-paced environments where adaptability, strategic thinking, and people-first leadership drive success.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/684a55498beb4b83e1a9476c.jpeg",
-          "creativeImg": ""
-        },
-        {
-          "name": {
             "first": "Carren",
             "last": "Gopez"
           },
-          "professionalTitle": "",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
           "role": "Program Assistant",
           "bio": "Carren Gopez holds a bachelor’s degree in Psychology and brings a thoughtful, analytical mindset to her work at ONGB. As a Program Assistant, she primarily supports data-related projects, helping to organize, track, and analyze information that strengthens ONGB’s impact. Her attention to detail and commitment to continuous learning make her a valuable part of the programs team.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303ba751afc605a93756a1.jpeg",
@@ -188,32 +177,13 @@
             "first": "Maddy",
             "last": "Cruz"
           },
-          "professionalTitle": "",
+          "nominalTitle": {
+            "pre": "",
+            "post": ""
+          },
           "role": "Marketing Assistant",
           "bio": "Maddy Cruz is a Marketing Assistant at ONGB, supporting both the core organization and the Girls Equity Movement (GEMS) program. She brings a creative, client-focused approach to her work, helping to elevate ONGB’s visibility and impact. Outside the office, Maddy stays active through sports and is deeply engaged in outreach efforts, reflecting her passion for community connection and personal growth.",
           "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303bdda74651a1ec9815ec.png",
-          "creativeImg": ""
-        },
-        {
-          "name": {
-            "first": "Gustavo",
-            "last": "Mayen"
-          },
-          "professionalTitle": "",
-          "role": "Outreach Suppport",
-          "bio": "Gustavo Mayen is a Virtual Assistant at ONGB with over a decade of experience in customer service, having worked with both travel agencies and insurance companies. He brings more than 6 years of expertise in interpretation and translation, as well as 4+ years supporting IT executives, clinics, and hospitals in administrative roles. Known for his reliability and adaptability, Gustavo is dedicated to helping teams run smoothly and efficiently.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/684a65db8beb4b164aa96468.jpeg",
-          "creativeImg": ""
-        },
-        {
-          "name": {
-            "first": "Sandra",
-            "last": "Garcia"
-          },
-          "professionalTitle": "",
-          "role": "Outreach Suppport",
-          "bio": "Sandra Garcia is a virtual assistant with international experience supporting clients around the world. She currently serves as Outreach Support at ONGB, where she brings her problem-solving skills, empathy, and professionalism to community engagement efforts. Her human-centered and adaptable approach makes her a reliable ally for teams seeking agility and attention to detail.",
-          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68303c2b93048945288e3655.png",
           "creativeImg": ""
         }
       ]
