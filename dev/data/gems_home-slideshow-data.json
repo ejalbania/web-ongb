@@ -1,0 +1,254 @@
+{
+  "autoplay": { "isActive": false, "interval": 5000 },
+  "slides": [
+    {
+      "background": {
+        "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba398821f1cf004.png",
+        "offset": {
+          "landscape": { "x": -8, "y": 0 },
+          "portrait": { "x": 18, "y": 0 }
+        }
+      },
+      "label": {
+        "text": "Self-Assured",
+        "size": { "landscape": 90, "portrait": 60 },
+        "offset": {
+          "landscape": { "x": 54, "y": 56 },
+          "portrait": { "x": 37, "y": 80 }
+        }
+      },
+      "icons": [
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20a28c608a05c.png",
+          "offset": {
+            "landscape": { "x": 29.2, "y": 7 },
+            "portrait": { "x": 55.5, "y": 7 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a7728ac6576d586.png",
+          "offset": { "landscape": { "x": 87, "y": 70 } }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a7728ac6576d586.png",
+          "scale": 0.6,
+          "offset": { "landscape": { "x": 3, "y": 10.5 } }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60cf8b1fd122f.png",
+          "offset": {
+            "landscape": { "x": 87, "y": 18.5 },
+            "portrait": { "x": 30, "y": 30 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061e4e6453bd786a268.png",
+          "offset": {
+            "landscape": { "x": 60, "y": 22.5 },
+            "portrait": { "x": 58, "y": 72 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20abc9108a05e.png",
+          "scale": 0.5,
+          "offset": { "landscape": { "x": 43, "y": -2 } }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60c20e8fd122b.png",
+          "scale": 0.8,
+          "offset": {
+            "landscape": { "x": 6, "y": 65.8 },
+            "portrait": { "x": 37, "y": 60 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20a29f208a058.png",
+          "scale": 0.8,
+          "rotate": 10,
+          "offset": {
+            "landscape": { "x": 58, "y": 77.5 },
+            "portrait": { "x": 34, "y": 83 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a77280cfd76d583.png",
+          "offset": {
+            "landscape": { "x": 2, "y": 42 },
+            "portrait": { "x": 35, "y": 2 }
+          }
+        }
+      ]
+    },
+    {
+      "background": {
+        "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba398a2be1cf003.png",
+        "offset": {
+          "landscape": { "x": -26.5, "y": 0 },
+          "portrait": { "x": -40, "y": 0 }
+        }
+      },
+      "label": {
+        "text": "College-Bound",
+        "size": { "landscape": 90, "portrait": 60 },
+        "offset": {
+          "landscape": { "x": 6, "y": 47 },
+          "portrait": { "x": 37, "y": 18 }
+        }
+      },
+      "icons": [
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba398b7031cf008.png",
+          "scale": 0.8,
+          "offset": {
+            "landscape": { "x": 46.5, "y": 45 },
+            "portrait": { "x": 30, "y": 45 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60cf8b1fd122f.png",
+          "scale": 0.8,
+          "rotate": -20,
+          "offset": {
+            "landscape": { "x": -1, "y": 65 },
+            "portrait": { "x": 58, "y": 6 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20abc9108a05e.png",
+          "scale": 0.6,
+          "rotate": -30,
+          "offset": {
+            "landscape": { "x": 55, "y": 19 },
+            "portrait": { "x": 35, "y": 2 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba3980a401cf006.png",
+          "scale": 0.9,
+          "offset": {
+            "landscape": { "x": 30, "y": 30 },
+            "portrait": { "x": 47, "y": 35 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a7728465576d581.png",
+          "scale": 0.6,
+          "rotate": -25,
+          "offset": {
+            "landscape": { "x": 25, "y": 75 },
+            "portrait": { "x": 32, "y": 75 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061e4e64568cc86a269.png",
+          "scale": 0.72,
+          "rotate": 20,
+          "offset": {
+            "landscape": { "x": 66, "y": 0.5 },
+            "portrait": { "x": 45, "y": 4 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20a442008a05b.png",
+          "scale": 0.4,
+          "offset": {
+            "landscape": { "x": 12.5, "y": 8 },
+            "portrait": { "x": 60, "y": 55 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061e4e645266a86a26a.png",
+          "offset": { "landscape": { "x": -3, "y": 27 } }
+        }
+      ]
+    },
+    {
+      "background": {
+        "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60c4996fd122a.png",
+        "offset": {
+          "landscape": { "x": -8, "y": 0 },
+          "portrait": { "x": 0, "y": 0 }
+        }
+      },
+      "label": {
+        "text": "Career-Focused",
+        "size": { "landscape": 80, "portrait": 60 },
+        "offset": {
+          "landscape": { "x": 52, "y": 55 },
+          "portrait": { "x": 47, "y": 10 }
+        }
+      },
+      "icons": [
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20a234f08a05d.png",
+          "scale": 0.8,
+          "offset": {
+            "landscape": { "x": -1, "y": 43 },
+            "portrait": { "x": 67, "y": 60 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60cf8b1fd122f.png",
+          "offset": {
+            "landscape": { "x": 54, "y": 31 },
+            "portrait": { "x": 70, "y": 30 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd1061eba398b7031cf008.png",
+          "scale": 0.65,
+          "offset": {
+            "landscape": { "x": 5, "y": 13.5 },
+            "portrait": { "x": 50, "y": 20 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20abc9108a05e.png",
+          "scale": 0.5,
+          "offset": { "landscape": { "x": 55, "y": 2 } }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60c2a37fd122d.png",
+          "scale": 0.75,
+          "rotate": -20,
+          "offset": {
+            "landscape": { "x": 77, "y": 7 },
+            "portrait": { "x": 20, "y": 0 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a7728ac6576d586.png",
+          "offset": {
+            "landscape": { "x": 37, "y": 14 },
+            "portrait": { "x": 70, "y": 0 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10610a7728d8f176d582.png",
+          "scale": 0.5,
+          "offset": {
+            "landscape": { "x": 92, "y": 31 },
+            "portrait": { "x": 38, "y": 50 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd10614bc20a6eb708a059.png",
+          "scale": 0.75,
+          "rotate": 40,
+          "offset": {
+            "landscape": { "x": 84.5, "y": 71.5 },
+            "portrait": { "x": 60, "y": 80 }
+          }
+        },
+        {
+          "src": "https://storage.googleapis.com/msgsndr/isV4FSMuMQ1b68WLmJdq/media/67dd106176f60cf3a5fd1229.png",
+          "scale": 0.75,
+          "offset": {
+            "landscape": { "x": 60, "y": 77 },
+            "portrait": { "x": 55, "y": 40 }
+          }
+        }
+      ]
+    }
+  ]
+}

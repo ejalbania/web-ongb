@@ -1,0 +1,63 @@
+/* LOGO SLIDER */
+@keyframes slide-logos {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos-container {
+  position: relative;
+  left: 0;
+  right: 0;
+  padding: 0px;
+  margin: 10px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logo-set {
+  display: inline-block;
+  animation: 32s slide-logos infinite linear;
+}
+
+.logo-set p {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin: 8px 40px;
+}
+
+.logo-set img {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.logos-container:hover .logo-set {
+  animation-play-state: paused;
+}
+
+.logos-container:before,
+.logos-container::after {
+  top: 0;
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background: inherit;
+  content: "";
+  z-index: 2;
+}
+
+.logos-container:before {
+  left: 0;
+  background: linear-gradient(to left, transparent, white);
+}
+
+.logos-container:after {
+  right: 0;
+  background: linear-gradient(to right, transparent, white);
+}
