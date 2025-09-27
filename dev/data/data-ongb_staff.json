@@ -54,6 +54,17 @@
       "staff": [
         {
           "name": {
+            "first": "Tambra Robinson",
+            "last": "Mola"
+          },
+          "professionalTitle": "Dr.",
+          "role": "Vice President for Programs",
+          "bio": "Dr. Tambra Robinson Mola is a social work professional with over 30 years of experience serving youth, families, and underserved communities. She holds a B.A. in Social Work from Southern University A&M College, an M.S.W. from San Francisco State University, and an Ed.D. in Counseling Psychology from Argosy University. A children’s book author with 15 published titles and a member of Delta Sigma Theta Sorority, Inc., Dr. Robinson Mola is known for her energetic, compassionate style and her dedication to foster youth, LGBTQ youth, and individuals facing trauma, grief, or life transitions. She is also passionate about teaching and training future social workers in areas such as child welfare, social justice, and community resilience.",
+          "thumbnailImg": "https://storage.googleapis.com/msgsndr/yTFTvxpdGIzC6XgTNsyU/media/68d765c0c94bacc864664565.jpeg",
+          "creativeImg": ""
+        },
+        {
+          "name": {
             "first": "Rahim",
             "last": "Harris"
           },
